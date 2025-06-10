@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+   body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+    }
+
