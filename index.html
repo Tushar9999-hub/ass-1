@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bubble game </title>
-    <link rel="stylesheet" href=".css">
-</head>
-<body>
-
-    <div class="score_board">
-        <div class="score_card"> 
-         Time left :  <strong id="timer"> 10 </strong>sec 
-        </div>
-         <div class="score_card">
-               Target : <strong id="target">1</strong>
-         </div>
-          <div class="score_card">
-              Score : <strong id="score">0</strong>
-          </div>
-    </div>
-
-    <div class="bubble_container">
-        
-    <!-- <div class="bubble">1</div>  call on js -->
-
-    </div>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
-
-    <script src="script.js"></script>
-</body>
+    <link rel="stylesheet" href="curr.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Currency Converter</h1>
+      </div>
+      <div class="base">
+      <div class="input">
+        <input type="number" placeholder="Enter Amount" />
+        <select id="from">
+          <option value="USD">USD</option>
+          <option value="INR">INR</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <select id="to">
+          <option value="USD">USD</option>
+          <option value="INR">INR</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+        </select>
+        <button class="convert">Convert</button>
+      </div>
+      <div class="show">
+        <h3>Converted Amount</h3>
+        <p>00.00</p>
+      </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
